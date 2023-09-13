@@ -31,8 +31,8 @@ Fill in the environment variables in `.env` for API setup and `@latest/.env` for
 
 ### API setup .env
 
-`TMDB_API_URL=https://api.themoviedb.org/3`
-`TMDB_API_TOKEN=*** YOUR_API_TOKEN ***`
+`TMDB_API_URL` => `https://api.themoviedb.org/3`\
+`TMDB_API_TOKEN` => `*** YOUR_API_TOKEN ***`
 
 ### FRONT-END setup @latest/.env
 
