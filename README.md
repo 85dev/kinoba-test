@@ -29,6 +29,8 @@ npm install
 
 Fill in the environment variables in `.env` for API setup and `@latest/.env` for front-end setup.
 
+For this step, copy paste the .env.example into a .env file
+
 ### API setup .env
 
 `TMDB_API_URL` => `https://api.themoviedb.org/3`\
