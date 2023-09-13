@@ -5,20 +5,36 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## :bulb: Setup
 
-* System dependencies
+### Ruby setup
 
-* Configuration
+Run following command
 
-* Database creation
+```shell
+bundle install
+bin/rails db:create db:migrate db:seed
+```
 
-* Database initialization
+### Vue3 setup
 
-* How to run the test suite
+Run following command
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+npm install
+```
 
-* Deployment instructions
+## :hammer: Run
 
-* ...
+### Start rails app
+
+```shell
+rails s
+```
+
+### Start vue app
+
+```shell
+npm run build
+npm run dev
+```
